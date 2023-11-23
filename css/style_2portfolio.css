@@ -158,19 +158,18 @@ line-height: normal;
 
 .horizon_ul .menu-item a {
    text-decoration: underline; 
-   text-decoration-color: rgb(255, 255, 255); 
-   color: rgb(255, 255, 255); 
- }
- 
+   text-decoration-color: #18b5a4; 
+   color: #ffffff;
+}
  .menu-item.active a {
    
-   text-decoration-color: #ece89d;
-   color: rgb(255, 255, 255); 
+   text-decoration-color: #18b5a4;
+   color: #18b5a4; 
  }
 
 .horizon_ul li :hover {
    text-decoration: underline;
-   color: #ece89d;
+   color: #18b5a4;
    transition: all 0.2s;
  }
  

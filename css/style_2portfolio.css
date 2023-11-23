@@ -192,9 +192,6 @@ background: #18b5a4;
    background-repeat: no-repeat;
    height: 100vh;
 }
-
-
-
 .centralframe__centraltext {
     
    
@@ -380,168 +377,7 @@ line-height: normal;
 /* index2html */
 
 
-/* contacts html 3 */
 
-
-.contactsframe {
-   max-width: 886px;
-   margin: 80px auto 0;
-}
-.contacts__flex {
-   max-width: 886px;
-   margin: 0px auto;
-   display: flex; /* Используем Flexbox */
-   flex-wrap: wrap;
-   align-items: center; 
-   justify-content: space-between;
-   
-}
-
-
-
-.contact_h1{
-   color: #000;
-font-family: Inter;
-font-size: 22px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding: 0 0 18px 0;
-text-decoration: underline;
-text-decoration-color: yellowgreen;
-}
-
-
-
-
-.block__getintouch {
-}
-
-
-
-
-.contacts__text {
-   color: rgba(0, 0, 0, 0.63);
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding: 0 0 32px 0;
-
-   
-}
-.contacts__socialmedia ul {
-   list-style: none;
-   padding: 0;
-  
- }
- 
- .contacts__socialmedia li {
-   display: flex; /* Элементы также становятся flex-контейнерами */
-   align-items: center; /* Выравниваем элементы по вертикали */
-   margin-right: 20px; /* Добавляем небольшой отступ между элементами (по вашему желанию) */
- }
- 
- .contacts__socialmedia img {
-   margin-right: 10px; /* Опциональный отступ между изображением и текстом */
- }
-
-
-.block__contactform {
-  
-}
-
-
-
-
-
-.form__space.in1 {
-width: 420px;
-height: 45px;
-  border: 1px solid #000000;
-  background-color: #fff;
-  font-size: 16px;
-  padding: 5px;
-}
-.form__space.in2 {
-width: 420px;
-height: 45px;
-  border: 1px solid #000000;
-  background-color: #fff;
-  font-size: 16px;
-  padding: 5px;
-  margin: 22px 0;
-}
-.form__space.in3 {
-   width: 420px;
-   height: 90px;
-  border: 1px solid #000000;
-  background-color: #fff;
-  font-size: 16px;
-  padding: 5px;
-  
-}
-
-
-
-
-
-
-.form__space:hover {
-   border-color: green;
-   transition: all 0.2s;
- }
- 
-.form__space:focus {
-   border-color: #007bff;
- }
- 
- .form__space:disabled {
-   background-color: #eee;
-   color: #777;
- }
-
-
- .button_ct {
-   display: flex;
-   align-items: center;
-   
-   border-radius: 200px;
-   border: 2px solid #000;
-   background: yellowgreen;
-   border-radius: 5px;
-   cursor: pointer;
-   
-
-   width: 203px;
-   height: 58px;
-   flex-shrink: 0;
-   padding: 10px 35px;
-   margin: 22px 0;
-
-   color: #4b5f01;
-font-family: Istok Web;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-
-}
-
-
-
-.ct_button_img{
-   max-height: 30px;
-   
-}
-
-.button_ct:hover {
-   background-color: #D9D9D9;
-   color: #5a5a5a;
-   transition: all 0.4s;
-   
-}
 
 
 /* бургер */
@@ -660,7 +496,10 @@ line-height: normal;
       width:80px;
 }
 
-
+.header{
+     
+   margin: 0 0 50px 0;
+}
 .header_name { font-size: 22px;}
    .header_rank {font-size:17px;}
 
@@ -669,6 +508,7 @@ line-height: normal;
 @media (max-width: 767px) {
    .header{
      
+      margin: 0 0 50px 0;
       
    }
 
@@ -748,7 +588,7 @@ line-height: normal;
    }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 320px) {
 
 
    .form__space{
@@ -765,82 +605,3 @@ line-height: normal;
    }
 }
 
-
-@media (max-width: 550px) {
-   .centralframe {
-   
-      background-image: url('/public/images/фото_фон.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 100vh;
-   }
-   .centralframe__centraltext {
-       
-      
-   }
-   .centralframe__centraltext {
-    display: flex;
-     flex-direction: column;
-     justify-content: center; 
-     align-items: center; 
-      height: 100vh; 
-   }
-   
-   .ct__name {
-     
-     margin: 0;
-     color: #FFF;
-   
-   font-family: Istok Web;
-   font-size: 35px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: normal;
-   }
-   
-   .ct_name2 {
-     font-size: 16px;
-     margin: 10px 0;
-     color: #FFF;
-   
-   font-family: Istok Web;
-   font-size: 35px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: normal;
-   }
-}
-@media (max-width: 550px) {
-   .ct__name {
-     
-      margin: 0;
-      color: #FFF;
-    
-    font-family: Istok Web;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    }
-    
-    .ct_name2 {
-      font-size: 16px;
-      margin: 10px 0;
-      color: #FFF;
-    
-    font-family: Istok Web;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 0 0 0 40px;
-    }
-    .button{
-      min-width: 250px;
-    }
-    .header{
-      min-height: 130px;
-    }
-    
-}

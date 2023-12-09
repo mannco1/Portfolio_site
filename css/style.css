@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 a {
-   color: rgb(0, 175, 0); /* Замените ваш_цвет на желаемый цвет (например, "red" или "#ff0000") */
+   color: #18b5a4; /* Замените ваш_цвет на желаемый цвет (например, "red" или "#ff0000") */
    text-decoration: none; /* Убирает подчеркивание у ссылок */
  }
 
@@ -410,7 +410,7 @@ font-weight: 500;
 line-height: normal;
 padding: 0 0 18px 0;
 text-decoration: underline;
-text-decoration-color: yellowgreen;
+text-decoration-color: #18b5a4;
 }
 
 
@@ -491,7 +491,7 @@ height: 45px;
 
 
 .form__space:hover {
-   border-color: green;
+   border-color: #18b5a4;
    transition: all 0.2s;
  }
  
@@ -511,7 +511,7 @@ height: 45px;
    
    border-radius: 200px;
    border: 2px solid #000;
-   background: yellowgreen;
+   background: #18b5a4;
    border-radius: 5px;
    cursor: pointer;
    
@@ -522,7 +522,7 @@ height: 45px;
    padding: 10px 35px;
    margin: 22px 0;
 
-   color: #4b5f01;
+   color: #D9D9D9;
 font-family: Istok Web;
 font-size: 30px;
 font-style: normal;
@@ -540,7 +540,7 @@ line-height: normal;
 
 .button_ct:hover {
    background-color: #D9D9D9;
-   color: #5a5a5a;
+   color: #18b5a4;
    transition: all 0.4s;
    
 }
